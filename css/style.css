@@ -1,0 +1,90 @@
+body{
+   font-family: 'Martel', serif; 
+   padding:120px 0; 
+   background-color: #008744; 
+}
+
+ul{
+    padding:0;
+}
+
+li{
+    list-style:none;
+}
+
+.main-block{
+    line-height: :1.5;
+    position:relative;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 630px;
+    margin:0 auto;
+    padding: 80px 75px;
+    text-align: center;
+    border-radius: 25px;
+    background-color: azure;
+}
+
+
+.name-header{
+    font-size: :40px;
+    font-weight: :600;
+    line-height: : 1.3;
+    margin: 9px 0 24px;
+    color:#0057e7;
+}
+
+.sub-header{
+    font-size: :21px;
+    font-weight: 600;
+    line-height: :1.3;
+    margin-top: 9px;
+    margin-left: 0;
+    margin-right: 0;
+    color: #808080;
+}
+
+.full-info{
+    font-size: 16px;
+    margin: 0;
+    text-align: left;
+}
+
+.info-header{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+}
+
+.socials{
+    margin-top: 30px;
+}
+
+.socials li{
+    display: inline-block;
+}
+
+.social-image{
+    display:block;
+    width: 45px;
+    margin-right: 12px;
+    -webkit-transition: -webkit-transform .4s ease-in;
+            transition: : -webkit-transform .4s ease-in;
+            transition:    transform .4s ease-in;
+            transition:    transform .4s ease-in;
+}
+
+.social-image:hover{
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+}
+
+.social-image img{
+    width:100%;
+}
+
+
